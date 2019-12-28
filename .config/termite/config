@@ -1,0 +1,26 @@
+[options]
+bold_is_bright = false
+font = monospace 10
+scrollback_lines = 10000
+
+[colors]
+foreground = #000000
+background = #FFFFFF
+
+color0 = #FFFFFF
+color1 = #8b0000
+color2 = #006400
+color3 = #808000
+color4 = #00008b
+color5 = #8b008b
+color6 = #008b8b
+color7 = #000000
+color8 = #FFFFFF
+color9 = #8b0000
+color10 = #006400
+color11 = #808000
+color12 = #00008b
+color13 = #8b008b
+color14 = #008b8b
+color15 = #000000
+

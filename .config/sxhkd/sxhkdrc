@@ -1,0 +1,66 @@
+alt + Return
+    termite
+alt + q
+    qutebrowser
+alt + t
+    telegram-desktop
+alt + r
+    termite -e ranger
+alt + z
+    zathura
+alt + v
+    virt-manager
+alt + ctrl + shift + q
+    poweroff
+alt + ctrl + shift + r
+    reboot
+
+alt + e
+    setxkbmap us
+alt + u
+    setxkbmap ua
+
+# make sxhkd reload its configuration files:
+alt + Escape
+    pkill -USR1 -x sxhkd
+
+#
+# bspwm hotkeys
+#
+
+# quit/restart bspwm
+alt + shift + {q,r}
+    killall telegram-desktop; \
+    bspc {quit,wm -r}
+
+# close and kill
+alt + {_,shift + }BackSpace
+    bspc node -{c,k}
+
+# alternate between the tiled and monocle layout
+alt + f
+   bspc desktop -l next
+
+# focus the node in the given direction
+alt + {_,shift + }{h,j,k,l}
+    bspc node -{f,s} {west,south,north,east}
+
+# focus the next/previous desktop in the current monitor
+alt + {_,shift + }@space
+    bspc desktop -f {next,prev}.local
+
+# rotate the desktop
+alt + semicolon
+    bspc node @/ -R 90
+
+# to next desktop
+alt + {_,shift} + n
+    bspc node -d {next,prev}
+
+#
+# move/resize
+#
+
+# expand a window by moving one of its side outward
+alt + ctrl + {h,j,k,l}
+    bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
