@@ -1,2 +1,0 @@
-xrandr -s 1280x768
-redshift -b 0.8:0.8 &
