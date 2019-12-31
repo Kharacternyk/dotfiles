@@ -49,6 +49,14 @@ alt + {_,shift + }{h,j,k,l}
 alt + {_,shift + }@space
     bspc desktop -f {next,prev}.local
 
+# add a desktop
+alt + a
+    bspc monitor -a ''
+
+# remove a desktop
+alt + d
+    bspc desktop -r
+
 # rotate the desktop
 alt + semicolon
     bspc node @/ -R 90

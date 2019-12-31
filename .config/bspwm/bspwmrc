@@ -1,10 +1,8 @@
 #! /bin/sh
 
 sxhkd &
-$HOME/go/bin/btops &
-telegram-desktop -startintray -many &
 
-bspc monitor -d I
+bspc monitor -d primary
 
 bspc config pointer_modifier     mod1
 
@@ -19,3 +17,7 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc rule -a Zathura state=tiled
+
+telegram-desktop &
+qutebrowser 'https://mail.tutanota.com/login' &
+
