@@ -10,6 +10,8 @@ alt + z
     zathura
 alt + v
     virt-manager
+alt + s
+    maim ~/new/$(date +%s)_screenshot.png
 alt + ctrl + shift + q
     poweroff
 alt + ctrl + shift + r
