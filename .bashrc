@@ -3,6 +3,10 @@ case $- in
       *) return;;
 esac
 
+export HISTCONTROL=erasedups
+
+shopt -s autocd
+
 PROMPT_COMMAND='
     case $? in
         0)   PROMPT_COLOR="6" ;;
