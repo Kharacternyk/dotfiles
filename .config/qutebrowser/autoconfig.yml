@@ -6,12 +6,19 @@
 
 config_version: 2
 settings:
+  bindings.commands:
+    global:
+      normal:
+        J: scroll-page 0 1
+        K: scroll-page 0 -1
   content.autoplay:
     global: false
   content.canvas_reading:
     global: false
   content.cookies.accept:
     global: no-3rdparty
+  content.geolocation:
+    global: false
   content.notifications:
     global: false
   content.register_protocol_handler:
