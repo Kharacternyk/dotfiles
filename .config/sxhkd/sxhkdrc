@@ -14,13 +14,13 @@ alt + shift + y
 alt + y
     setxkbmap ua
 
-alt + backspace
+alt + BackSpace
     bspc wm -r
-ctrl + alt + backspace
+ctrl + alt + BackSpace
     bspc quit
-shift + alt + backspace
+shift + alt + BackSpace
     reboot
-shift + ctrl + alt + backspace
+shift + ctrl + alt + BackSpace
     poweroff
 
 
