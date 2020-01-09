@@ -2,7 +2,7 @@
 
 sxhkd &
 
-bspc monitor -d primary
+bspc monitor -d '' ''
 
 bspc config pointer_modifier     mod1
 
@@ -18,6 +18,7 @@ bspc config gapless_monocle      true
 
 bspc rule -a Zathura state=tiled
 
-telegram-desktop &
-qutebrowser 'https://mail.tutanota.com/login' &
-
+( \
+    wget -O ~/img/wallpaper.jpg 'https://source.unsplash.com/1920x1200/?scenery'; \
+    feh --bg-scale ~/img/wallpaper.jpg \
+)&
