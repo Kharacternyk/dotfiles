@@ -18,7 +18,4 @@ bspc config gapless_monocle      true
 
 bspc rule -a Zathura state=tiled
 
-( \
-    wget -O ~/img/wallpaper.jpg 'https://source.unsplash.com/1920x1200/?scenery'; \
-    feh --bg-scale ~/img/wallpaper.jpg \
-)&
+(wget -O ~/img/wallpaper.jpg 'https://source.unsplash.com/1920x1200/?scenery')&
