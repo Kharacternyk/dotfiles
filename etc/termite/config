@@ -1,7 +1,6 @@
 [options]
 bold_is_bright = false
-font = monospace 10
-scrollback_lines = 10000
+font = IBM Plex Mono 13.1
 
 [colors]
 foreground = #000000
