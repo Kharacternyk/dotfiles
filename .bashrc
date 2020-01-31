@@ -17,7 +17,7 @@ PROMPT_COMMAND='
 PS1='\[$(tput setaf $PROMPT_COLOR; tput bold)\]|>\[$(tput sgr0)\]'
 PS2='\[$(tput setaf $PROMPT_COLOR; tput bold)\]->\[$(tput sgr0)\]'
 
-alias ls='ls --color=auto -Fa'
+alias ls='ls --color=auto -FA'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
