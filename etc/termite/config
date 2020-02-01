@@ -1,6 +1,6 @@
 [options]
 bold_is_bright = false
-font = IBM Plex Mono 13.1
+font = IBM Plex Mono 12.5
 
 [colors]
 foreground = #000000
