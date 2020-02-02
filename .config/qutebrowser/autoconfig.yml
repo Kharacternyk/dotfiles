@@ -46,3 +46,5 @@ settings:
     global: https://www.archlinux.org/
   url.start_pages:
     global: https://www.archlinux.org/
+  zoom.default:
+    global: '125'
