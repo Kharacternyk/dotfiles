@@ -15,18 +15,14 @@ alt + y
     setxkbmap ua
 
 alt + BackSpace
-    bspc wm -r
+    bspc wm -r; \
+    pkill -USR1 -x sxhkd
 ctrl + alt + BackSpace
     bspc quit
 shift + alt + BackSpace
     reboot
 shift + ctrl + alt + BackSpace
     poweroff
-
-
-# make sxhkd reload its configuration files:
-alt + Escape
-    pkill -USR1 -x sxhkd
 
 # close and kill
 alt + {_,shift + }apostrophe
