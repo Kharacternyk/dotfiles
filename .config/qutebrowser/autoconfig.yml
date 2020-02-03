@@ -38,6 +38,8 @@ settings:
     - termite
     - -e
     - nvim {file}
+  fonts.default_size:
+    global: 12.5pt
   tabs.show:
     global: never
   tabs.tabs_are_windows:
