@@ -6,6 +6,8 @@ alt + i
     termite -e ranger
 alt + o
     telegram-desktop
+alt + p
+    termite -e python
 
 alt + Return
     maim -u ~/new/$(date +%s)_screenshot.png
