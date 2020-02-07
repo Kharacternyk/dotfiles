@@ -11,6 +11,7 @@ settings:
       normal:
         J: scroll-page 0 1
         K: scroll-page 0 -1
+        u: set-cmd-text :open !
   content.autoplay:
     global: false
   content.canvas_reading:
@@ -37,7 +38,7 @@ settings:
     global:
     - termite
     - -e
-    - nvim {file}
+    - vim {file}
   fonts.default_size:
     global: 12.5pt
   tabs.show:
