@@ -1,4 +1,11 @@
 from math import *
+from pylab import *
+
+import matplotlib
+
+matplotlib.rcParams['backend'] = 'TkAgg'
+
+ion()
 
 import sys
 
