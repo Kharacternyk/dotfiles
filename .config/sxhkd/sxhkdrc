@@ -1,5 +1,7 @@
 alt + semicolon
     termite
+alt + y
+    termite -e alsamixer
 alt + u
     qutebrowser
 alt + i
@@ -11,9 +13,9 @@ alt + p
 
 alt + Return
     maim -u ~/new/$(date +%s)_screenshot.png
-alt + shift + y
+alt + shift + Escape
     setxkbmap us
-alt + y
+alt + Escape
     setxkbmap ua
 
 alt + BackSpace
