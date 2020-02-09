@@ -26,6 +26,6 @@ alias ncdu='ncdu --color=dark'
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-bind '"\C-f": "| grep"'
+bind '"\C-f": " | grep "'
 
 eval "$(thefuck --alias)"
