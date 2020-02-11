@@ -24,8 +24,7 @@ alias egrep='egrep --color=auto'
 alias diff='diff --color=auto'
 alias ncdu='ncdu --color=dark'
 
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
+bind '"\C-g": "git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "'
 bind '"\C-f": " | grep "'
 
 eval "$(thefuck --alias)"
