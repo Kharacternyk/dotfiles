@@ -11,6 +11,7 @@ set shiftwidth=4
 set expandtab
 set smarttab
 set clipboard=unnamedplus
+set spell
 
 let mapleader = " "
 
