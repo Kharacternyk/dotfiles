@@ -1,7 +1,5 @@
 source $VIMRUNTIME/defaults.vim
 
-au ColorScheme * hi Search cterm=inverse ctermbg='NONE' ctermfg='NONE'
-au ColorScheme * hi IncSearch cterm=inverse ctermbg='NONE' ctermfg='NONE'
 au ColorScheme * hi Comment cterm=italic
 
 colorscheme peachpuff
