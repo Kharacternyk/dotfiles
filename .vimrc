@@ -10,6 +10,8 @@ set expandtab
 set smarttab
 set clipboard=unnamedplus
 set spell
+set ignorecase
+set smartcase
 
 let mapleader = " "
 
