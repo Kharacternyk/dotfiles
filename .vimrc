@@ -12,6 +12,7 @@ set clipboard=unnamedplus
 set spell
 set ignorecase
 set smartcase
+set encoding=utf-8
 
 let mapleader = " "
 
