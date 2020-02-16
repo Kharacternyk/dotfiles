@@ -4,6 +4,9 @@ au ColorScheme * hi Comment cterm=italic
 
 colorscheme peachpuff
 
+au BufRead,BufNewFile *.asm set syntax=fasm
+au BufEnter *asm setlocal nospell
+
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -13,6 +16,7 @@ set spell
 set ignorecase
 set smartcase
 set encoding=utf-8
+set autoindent
 
 let mapleader = " "
 
