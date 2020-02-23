@@ -7,6 +7,7 @@ colorscheme peachpuff
 au BufRead,BufNewFile *.asm set syntax=fasm
 au BufEnter *asm setlocal nospell
 
+set scrolloff=100
 set tabstop=4
 set shiftwidth=4
 set expandtab
