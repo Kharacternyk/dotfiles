@@ -19,8 +19,7 @@ alt + Escape
     setxkbmap ua
 
 alt + BackSpace
-    bspc wm -r; \
-    pkill -USR1 -x sxhkd
+    bspc node -k
 ctrl + alt + BackSpace
     bspc quit
 shift + alt + BackSpace
@@ -28,9 +27,10 @@ shift + alt + BackSpace
 shift + ctrl + alt + BackSpace
     poweroff
 
-# close and kill
-alt + {_,shift + }apostrophe
-    bspc node -{c,k}
+# reload config.
+alt + apostrophe
+    bspc wm -r; \
+    pkill -USR1 -x sxhkd
 
 # alternate between the tiled and monocle layout
 alt + m
