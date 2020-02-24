@@ -5,7 +5,6 @@ import math
 import pylab
 
 readline.parse_and_bind('"\C-l": "    "')
-readline.parse_and_bind('"\e\'": "quit()\n"')
 
 matplotlib.rcParams['backend'] = 'TkAgg'
 pylab.ion()
