@@ -5,6 +5,7 @@ import math
 import pylab
 
 readline.parse_and_bind('"\C-l": "    "')
+readline.parse_and_bind('"\C-g": "from gi.repository import "')
 
 pylab.ion()
 
