@@ -36,7 +36,7 @@ alt + {_,shift + }apostrophe
     bspc node -{c,k}
 
 # float and tile
-alt + shift + {comma, period}
+alt + ctrl + {comma, period}
     bspc node -t {floating, tiled}
 
 # alternate between the tiled and monocle layout
