@@ -13,6 +13,9 @@ alt + p
 
 alt + Return
     maim -u ~/new/$(date +%s)_screenshot.png
+alt + shift + Return
+    peek
+
 alt + shift + Escape
     setxkbmap us
 alt + Escape
@@ -31,6 +34,10 @@ shift + ctrl + alt + BackSpace
 # close and kill
 alt + {_,shift + }apostrophe
     bspc node -{c,k}
+
+# float and tile
+alt + shift + {comma, period}
+    bspc node -t {floating, tiled}
 
 # alternate between the tiled and monocle layout
 alt + m
