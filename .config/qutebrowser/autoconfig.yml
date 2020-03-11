@@ -36,9 +36,9 @@ settings:
     global: false
   editor.command:
     global:
-    - termite
-    - -e
-    - vim {file}
+    - /home/nazar/src/viter/viter.py
+    - /bin/vim
+    - '{file}'
   fonts.default_size:
     global: 12.5pt
   tabs.show:
