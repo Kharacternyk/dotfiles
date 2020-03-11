@@ -27,6 +27,6 @@ alias ncdu='ncdu --color=dark'
 bind '"\C-g": "git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "'
 bind '"\C-f": " | grep "'
 bind '"\C-k": "fuck\n"'
-bind '"\C-u": "sudo pacman -Syu "'
+bind '"\C-y": "sudo pacman -Syu "'
 
 eval "$(thefuck --alias)"
