@@ -13,6 +13,8 @@ alt + p
 
 alt + Return
     maim -u ~/new/$(date +%s)_screenshot.png
+alt + ctrl + Return
+    maim -ui $(xdotool getactivewindow) ~/new/$(date +%s)_win_screenshot.png
 alt + shift + Return
     peek
 
