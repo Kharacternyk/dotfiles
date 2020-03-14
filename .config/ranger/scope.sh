@@ -291,9 +291,7 @@ handle_mime() {
 
         ## Text
         text/* | */xml)
-            ## Syntax highlight
-            exit 5
-
+            exit 2;;
 
         ## DjVu
         image/vnd.djvu)
