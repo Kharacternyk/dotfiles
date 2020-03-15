@@ -17,6 +17,7 @@ set ignorecase
 set smartcase
 set encoding=utf-8
 set autoindent
+set clipboard=unnamedplus
 
 let mapleader = " "
 
