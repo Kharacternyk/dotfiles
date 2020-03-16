@@ -12,6 +12,7 @@ settings:
         J: scroll-page 0 1
         K: scroll-page 0 -1
         d: edit-url
+        g: download-open
         u: set-cmd-text :open !
   content.autoplay:
     global: false
