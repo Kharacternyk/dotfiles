@@ -1,6 +1,10 @@
 source $VIMRUNTIME/defaults.vim
 
 au ColorScheme * hi Comment cterm=italic
+au ColorScheme * hi SpellBad cterm=inverse,bold
+au ColorScheme * hi SpellCap cterm=inverse
+au ColorScheme * hi SpellLocal cterm=inverse,italic
+au ColorScheme * hi SpellRare cterm=inverse,italic
 
 colorscheme peachpuff
 
