@@ -38,7 +38,7 @@ settings:
     global: false
   editor.command:
     global:
-    - /home/nazar/src/viter/viter.py
+    - viter
     - /bin/vim
     - '{file}'
   fonts.default_size:

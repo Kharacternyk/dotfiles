@@ -1,15 +1,15 @@
 alt + semicolon
-    ~/src/viter/viter.py
+    viter
 alt + y
-    ~/src/viter/viter.py /bin/alsamixer
+    viter /bin/alsamixer
 alt + u
     qutebrowser
 alt + i
-    ~/src/viter/viter.py /bin/ranger
+    viter /bin/ranger
 alt + o
     telegram-desktop
 alt + p
-    ~/src/viter/viter.py /bin/python
+    viter /bin/python
 
 alt + Return
     maim -u ~/new/$(date +%s)_screenshot.png
