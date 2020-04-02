@@ -40,6 +40,7 @@ settings:
     global:
     - viter
     - /bin/vim
+    - -c set syntax=markdown
     - '{file}'
   fonts.default_size:
     global: 12.5pt
