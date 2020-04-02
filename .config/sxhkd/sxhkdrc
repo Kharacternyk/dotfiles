@@ -1,5 +1,8 @@
 alt + semicolon
     viter
+alt + shift + semicolon
+    viter /bin/vim -c "set syntax=markdown"
+
 alt + y
     viter /bin/alsamixer
 alt + u
