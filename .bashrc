@@ -23,6 +23,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias diff='diff --color=auto'
 alias ncdu='ncdu --color=dark'
+alias pacman=paclabel
 
 bind '"\C-g": "git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "'
 bind '"\C-f": " | grep "'
