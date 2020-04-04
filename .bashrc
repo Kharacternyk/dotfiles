@@ -25,6 +25,9 @@ alias diff='diff --color=auto'
 alias ncdu='ncdu --color=dark'
 alias pacman=paclabel
 
+# https://unix.stackexchange.com/questions/148545/why-does-sudo-ignore-aliases
+alias sudo="sudo "
+
 bind '"\C-g": "git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "'
 bind '"\C-f": " | grep "'
 bind '"\C-k": "fuck\n"'
