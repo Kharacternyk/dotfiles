@@ -25,7 +25,7 @@ alias diff='diff --color=auto'
 alias ncdu='ncdu --color=dark'
 alias pacman=paclabel
 
-# Expand the alias next to sudo.
+# Expand aliases next to sudo.
 alias sudo='sudo '
 
 bind '"\C-g": "git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "'
