@@ -20,8 +20,11 @@ set autoindent
 set clipboard=unnamedplus
 
 let mapleader = " "
-noremap <leader>j <C-]>
-noremap <leader>k <C-t>
+nnoremap <leader>j <C-]>
+nnoremap <leader>k <C-t>
+
+nnoremap s qq
+nnoremap S @q
 
 let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
