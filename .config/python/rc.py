@@ -7,6 +7,7 @@ sys.ps2 = '\001\033[01;33m\002->\001\033[00m\002'
 
 class Nltk:
     def __init__(self):
+        exec('import nltk', globals())
         exec('from nltk import *', globals())
 
 class Calc:
