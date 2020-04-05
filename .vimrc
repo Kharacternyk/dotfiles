@@ -23,8 +23,8 @@ let mapleader = " "
 nnoremap <leader>j <C-]>
 nnoremap <leader>k <C-t>
 
-nnoremap s qq
-nnoremap S @q
+nnoremap S qq
+nnoremap s @q
 
 let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
