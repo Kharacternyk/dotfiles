@@ -5,6 +5,8 @@ au ColorScheme * hi Comment cterm=italic
 colorscheme peachpuff
 
 au BufRead,BufNewFile *.asm set syntax=fasm
+au BufRead,BufNewFile *.asm syn keyword fasmRegister rax rbx rcx rdx rsi rdi
+au BufRead,BufNewFile *.asm syn keyword fasmRegister r8 r9 r10 r11 r12 r13 r14 r15
 au BufEnter *asm setlocal nospell
 
 set scrolloff=100
