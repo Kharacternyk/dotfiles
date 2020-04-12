@@ -12,6 +12,7 @@ settings:
         ',': download-open
         J: scroll-page 0 1
         K: scroll-page 0 -1
+        M: spawn mpv {url}
         d: edit-url
         u: set-cmd-text :open !
   content.autoplay:
