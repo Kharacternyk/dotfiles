@@ -21,3 +21,4 @@ set clipboard+=unnamedplus
 
 nnoremap S qq
 nnoremap s @q
+nnoremap <Space> :nohlsearch<LF>
