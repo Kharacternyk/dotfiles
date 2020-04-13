@@ -18,6 +18,8 @@ set ignorecase
 set smartcase
 set autoindent
 set clipboard+=unnamedplus
+set laststatus=0
+set ruler
 
 nnoremap S qq
 nnoremap s @q
