@@ -1,4 +1,6 @@
 au ColorScheme * hi Comment cterm=italic
+au ColorScheme * hi Search cterm=bold ctermbg='NONE' ctermfg='NONE'
+au ColorScheme * hi IncSearch cterm=bold
 
 colorscheme peachpuff
 
@@ -11,12 +13,11 @@ set scrolloff=100
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set smarttab
 set spell
+set ignorecase
 set smartcase
-set encoding=utf-8
 set autoindent
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
 
 nnoremap S qq
 nnoremap s @q
