@@ -12,7 +12,7 @@ alt + i
 alt + o
     telegram-desktop
 alt + p
-    viter /bin/python
+    viter /bin/python -q
 
 alt + Return
     maim -u ~/new/$(date +%s)_screenshot.png
