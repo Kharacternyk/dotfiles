@@ -23,4 +23,4 @@ set ruler
 
 nnoremap S qq
 nnoremap s @q
-nnoremap <Space> :nohlsearch<LF>
+nnoremap <Space> <C-D>
