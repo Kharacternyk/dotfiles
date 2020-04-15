@@ -4,6 +4,6 @@ unclutter -b
 redshift -t 6500:3500 &
 
 feh --bg-center --no-fehbg --image-bg darkslategray ~/pacwall.png
-~/src/pacwall/pacwall.sh &
+pacwall &
 
 exec /bin/bspwm
