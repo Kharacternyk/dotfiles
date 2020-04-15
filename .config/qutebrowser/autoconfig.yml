@@ -14,6 +14,8 @@ settings:
         K: scroll-page 0 -1
         M: spawn mpv {url}
         d: edit-url
+        shift-space: scroll-page 0 -0.75
+        space: scroll-page 0 0.75
         u: set-cmd-text :open !
   content.autoplay:
     global: false
