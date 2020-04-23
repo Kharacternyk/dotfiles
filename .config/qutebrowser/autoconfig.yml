@@ -20,7 +20,7 @@ settings:
   content.autoplay:
     global: false
   content.cookies.accept:
-    global: no-3rdparty
+    global: all
   content.geolocation:
     global: false
   content.notifications:
