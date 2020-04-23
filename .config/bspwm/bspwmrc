@@ -2,8 +2,6 @@
 
 sxhkd &
 
-bspc monitor -d '' ''
-
 bspc config pointer_modifier     mod1
 
 bspc config normal_border_color  '#000000'
