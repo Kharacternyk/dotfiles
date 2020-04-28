@@ -1,18 +1,18 @@
 alt + semicolon
     viter
 alt + shift + semicolon
-    viter /bin/vim -c "set syntax=markdown"
+    viter vim -c "set syntax=markdown"
 
 alt + y
-    viter /bin/alsamixer
+    viter alsamixer
 alt + u
     qutebrowser
 alt + i
-    viter /bin/ranger
+    viter ranger
 alt + o
     telegram-desktop
 alt + p
-    viter /bin/python -q
+    viter python -q
 
 alt + Return
     maim -u ~/new/$(date +%s)_screenshot.png
