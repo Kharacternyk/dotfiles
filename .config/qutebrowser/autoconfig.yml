@@ -21,6 +21,8 @@ settings:
     global: false
   content.cookies.accept:
     global: all
+  content.fullscreen.window:
+    global: true
   content.geolocation:
     global: false
   content.notifications:
@@ -40,7 +42,7 @@ settings:
   editor.command:
     global:
     - viter
-    - /bin/vim
+    - vim
     - -c set syntax=markdown
     - '{file}'
   fonts.default_size:
