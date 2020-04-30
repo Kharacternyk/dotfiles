@@ -42,6 +42,10 @@ alt + apostrophe
 alt + shift + apostrophe
     bspwm-undo-close
 
+# noundo close and kill
+alt + ctrl + {_, shift} + apostrophe
+    bspc node -{c,k}
+
 # float and tile
 alt + ctrl + {comma, period}
     bspc node -t {floating, tiled}
