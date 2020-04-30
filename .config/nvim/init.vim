@@ -23,3 +23,6 @@ set laststatus=0
 nnoremap S qq
 nnoremap s @q
 nnoremap <Space> <C-D>
+
+noremap H ^
+noremap L $
