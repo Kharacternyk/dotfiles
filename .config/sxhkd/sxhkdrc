@@ -38,9 +38,9 @@ shift + ctrl + alt + BackSpace
 
 # close and undo
 alt + apostrophe
-    bspwm-undoable-close
+    ubspc close
 alt + shift + apostrophe
-    bspwm-undo-close
+    ubspc undo close
 
 # noundo close and kill
 alt + ctrl + {_, shift} + apostrophe
