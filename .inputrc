@@ -14,7 +14,7 @@ set colored-stats on
 set keymap vi-command
 "L": end-of-line
 "H": beginning-of-line
-" ": "ddanvim 	"
+" ": "ddanvim "
 "'": "ddafuck "
 ";": "ddapacman -"
 ":": "ddasudo pacman -"
