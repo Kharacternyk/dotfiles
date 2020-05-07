@@ -30,10 +30,4 @@ alias jk=nvim
 # Expand aliases next to sudo.
 alias sudo='sudo '
 
-bind '"\C-g": "git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "'
-bind '"\C-f": " | grep "'
-bind '"\C-k": "fuck\n"'
-bind '"\C-y": "sudo pacman -"'
-bind '"\C-u": "pacman -"'
-
 eval "$(thefuck --alias)"

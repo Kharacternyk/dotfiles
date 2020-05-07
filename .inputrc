@@ -14,5 +14,10 @@ set colored-stats on
 set keymap vi-command
 "L": end-of-line
 "H": beginning-of-line
+" ": "ddanvim 	"
+"'": "ddafuck "
+";": "ddapacman -"
+":": "ddasudo pacman -"
+"m": "ddagit --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "
 
 set keymap vi-insert
