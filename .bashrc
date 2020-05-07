@@ -24,8 +24,6 @@ alias egrep='egrep --color=auto'
 alias diff='diff --color=auto'
 alias ncdu='ncdu --color=dark'
 alias pacman=paclabel
-alias kj=nvim
-alias jk=nvim
 
 # Expand aliases next to sudo.
 alias sudo='sudo '
