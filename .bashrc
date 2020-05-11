@@ -10,7 +10,6 @@ shopt -s autocd
 PROMPT_COMMAND='
     case $? in
         0)   PROMPT_COLOR="6" ;;
-        127) PROMPT_COLOR="4" ;;
         *)   PROMPT_COLOR="1" ;;
     esac'
 
