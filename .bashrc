@@ -4,6 +4,7 @@ case $- in
 esac
 
 export HISTCONTROL=erasedups
+export HISTSIZE=-1
 
 shopt -s autocd
 
