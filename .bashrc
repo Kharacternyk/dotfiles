@@ -28,3 +28,9 @@ alias pacman=paclabel
 alias sudo='sudo '
 
 eval "$(thefuck --alias)"
+
+source /usr/share/fzf/key-bindings.bash
+source /usr/share/fzf/completion.bash
+
+export FZF_DEFAULT_OPTS="--color=light"
+export FZF_CTRL_R_OPTS="--reverse"
