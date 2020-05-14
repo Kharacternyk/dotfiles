@@ -7,12 +7,15 @@ export HISTCONTROL=erasedups
 export HISTSIZE=-1
 
 shopt -s autocd
+shopt -s histappend
 
 PROMPT_COMMAND='
     case $? in
         0)   PROMPT_COLOR="6" ;;
         *)   PROMPT_COLOR="1" ;;
-    esac'
+    esac
+    history -a
+    history -n'
 
 PS1='\[$(tput setaf $PROMPT_COLOR)\]█◤\[$(tput sgr0)\]'
 PS2='\[$(tput setaf $PROMPT_COLOR)\]█ \[$(tput sgr0)\]'
