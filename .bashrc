@@ -15,7 +15,7 @@ PROMPT_COMMAND='
     esac'
 
 PS1='\[$(tput setaf $PROMPT_COLOR)\]█◤\[$(tput sgr0)\]'
-PS2='\[$(tput setaf $PROMPT_COLOR)\]█ \[$(tput sgr0)\] '
+PS2='\[$(tput setaf $PROMPT_COLOR)\]█ \[$(tput sgr0)\]'
 
 alias ls='ls --color=auto -FA'
 alias grep='grep --color=auto'
