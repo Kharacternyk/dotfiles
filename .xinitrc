@@ -1,3 +1,5 @@
+#!/bin/bash
+
 setxkbmap -option caps:escape
 setxkbmap -option compose:lwin
 unclutter -b
