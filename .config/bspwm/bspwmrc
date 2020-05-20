@@ -1,19 +1,21 @@
 #! /bin/sh
 
+source ~/.cache/wal/colors.sh
+
 setxkbmap -option caps:escape
 setxkbmap -option compose:lwin
 unclutter -b
 redshift -t 6500:3500 &
 
-feh --bg-center --no-fehbg --image-bg '#073642' ~/pacwall.png
-pacwall &
+feh --bg-center --no-fehbg --image-bg "$background" ~/pacwall.png
+pacwall -W &
 
 sxhkd &
 
 bspc config pointer_modifier     mod1
 
-bspc config normal_border_color  '#268bd2'
-bspc config focused_border_color '#b58900'
+bspc config normal_border_color  "$color4"
+bspc config focused_border_color "$color3"
 
 bspc config window_gap 8
 bspc config border_width 4

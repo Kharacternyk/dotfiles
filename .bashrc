@@ -33,8 +33,9 @@ alias sudo='sudo '
 
 eval "$(thefuck --alias)"
 
+export FZF_DEFAULT_OPTS="--bind=ctrl-l:accept,change:top --prompt='█◤'"
+export FZF_CTRL_R_OPTS="--reverse"
+
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
-
-export FZF_DEFAULT_OPTS="--bind=ctrl-l:accept,change:top --color=light --prompt='█◤'"
-export FZF_CTRL_R_OPTS="--reverse"
+source ~/.cache/wal/colors.sh
