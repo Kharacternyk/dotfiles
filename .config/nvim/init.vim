@@ -1,3 +1,4 @@
+au ColorScheme * hi SpellBad cterm=undercurl ctermbg='NONE'
 au ColorScheme * hi Comment cterm=italic
 au ColorScheme * hi Search cterm=bold ctermbg='NONE' ctermfg='NONE'
 au ColorScheme * hi IncSearch cterm=bold
