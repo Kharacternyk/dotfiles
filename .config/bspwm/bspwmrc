@@ -5,15 +5,13 @@ source ~/.cache/wal/colors.sh
 setxkbmap -option caps:escape
 setxkbmap -option compose:lwin
 
-killall redshift unclutter sxhkd
-
-unclutter -b
-redshift -t 6500:3500 &
+pidof unclutter || unclutter -b
+pidof redshift  || redshift -t 6500:3500 &
+pidof sxhkd     || sxhkd &
 
 feh --bg-center --no-fehbg --image-bg "$background" ~/pacwall.png
 pacwall -W &
 
-sxhkd &
 
 bspc config pointer_modifier     mod1
 
