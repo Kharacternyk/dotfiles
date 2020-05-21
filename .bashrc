@@ -37,7 +37,7 @@ export FZF_DEFAULT_OPTS="
     --bind=ctrl-l:accept,change:top
     --prompt='█◤'
     --no-bold
-    --color fg:-1,bg:8,hl:1,fg+:-1,bg+:4,hl+:1
+    --color fg:-1,bg:8,hl:1,fg+:0,bg+:4,hl+:1
     --color info:-1,prompt:4,spinner:1,pointer:232,marker:1
 "
 export FZF_CTRL_R_OPTS="--reverse"
