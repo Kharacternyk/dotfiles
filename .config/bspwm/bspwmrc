@@ -4,6 +4,9 @@ source ~/.cache/wal/colors.sh
 
 setxkbmap -option caps:escape
 setxkbmap -option compose:lwin
+
+killall redshift unclutter sxhkd
+
 unclutter -b
 redshift -t 6500:3500 &
 
