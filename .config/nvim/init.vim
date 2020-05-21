@@ -1,9 +1,4 @@
-au ColorScheme * hi SpellBad cterm=undercurl ctermbg='NONE'
-au ColorScheme * hi Comment cterm=italic
-au ColorScheme * hi Search cterm=bold ctermbg='NONE' ctermfg='NONE'
-au ColorScheme * hi IncSearch cterm=bold
-
-colorscheme peachpuff
+colorscheme dim
 
 au BufEnter *.asm setlocal syntax=fasm
 au BufEnter *.asm syn keyword fasmRegister rax rbx rcx rdx rsi rdi
