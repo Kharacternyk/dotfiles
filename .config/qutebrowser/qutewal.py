@@ -109,11 +109,11 @@ if os.path.isfile(colors_absolute):
     # Background color for hints. Note that you can use a `rgba(...)` value
     # for transparency.
     # Type: QssColor
-    c.colors.hints.bg = yellow
+    c.colors.hints.bg = background
 
     # Font color for hints.
     # Type: QssColor
-    c.colors.hints.fg = background
+    c.colors.hints.fg = foreground
 
     # Font color for the matched part of hints.
     # Type: QssColor
