@@ -27,15 +27,8 @@ highlight SpellCap       ctermfg=NONE ctermbg=NONE cterm=underline
 highlight SpellLocal     ctermfg=NONE ctermbg=NONE cterm=underline
 highlight SpellRare      ctermfg=NONE ctermbg=NONE cterm=underline
 
-highlight LineNr       ctermfg=7
 highlight Comment      ctermfg=4                 cterm=italic
-highlight ColorColumn  ctermfg=8    ctermbg=7
-highlight Folded       ctermfg=8    ctermbg=7
-highlight FoldColumn   ctermfg=8    ctermbg=7
-highlight Pmenu        ctermfg=0    ctermbg=4
-highlight PmenuSel     ctermfg=7    ctermbg=0
-highlight SpellCap     ctermfg=8    ctermbg=7
-highlight StatusLine   ctermfg=0    ctermbg=7    cterm=bold
-highlight StatusLineNC ctermfg=8    ctermbg=7    cterm=NONE
-highlight VertSplit    ctermfg=8    ctermbg=7    cterm=NONE
-highlight SignColumn                ctermbg=7
+highlight Pmenu        ctermfg=7    ctermbg=8
+highlight PmenuSel     ctermfg=7    ctermbg=4
+highlight PmenuSbar                 ctermbg=8
+highlight PmenuThumb                ctermbg=4
