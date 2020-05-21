@@ -24,8 +24,8 @@ highlight Search         ctermfg=NONE ctermbg=NONE cterm=bold
 " Underline spell
 highlight SpellBad       ctermfg=NONE ctermbg=NONE cterm=undercurl
 highlight SpellCap       ctermfg=NONE ctermbg=NONE cterm=underline
-highlight SpellLocal       ctermfg=NONE ctermbg=NONE cterm=underline
-highlight SpellRare       ctermfg=NONE ctermbg=NONE cterm=underline
+highlight SpellLocal     ctermfg=NONE ctermbg=NONE cterm=underline
+highlight SpellRare      ctermfg=NONE ctermbg=NONE cterm=underline
 
 highlight LineNr       ctermfg=7
 highlight Comment      ctermfg=4                 cterm=italic
