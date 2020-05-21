@@ -43,11 +43,11 @@ if os.path.isfile(colors_absolute):
 
     # Background color of the completion widget for even rows.
     # Type: QssColor
-    c.colors.completion.even.bg = background
+    c.colors.completion.even.bg = gray
 
     # Background color of the completion widget for odd rows.
     # Type: QssColor
-    c.colors.completion.odd.bg = background
+    c.colors.completion.odd.bg = gray
 
     # Text color of the completion widget.
     # Type: QtColor
@@ -71,15 +71,15 @@ if os.path.isfile(colors_absolute):
 
     # Foreground color of the matched text in the completion.
     # Type: QssColor
-    c.colors.completion.match.fg = yellow
+    c.colors.completion.match.fg = red
 
     # Color of the scrollbar in completion view
     # Type: QssColor
-    c.colors.completion.scrollbar.bg = background
+    c.colors.completion.scrollbar.bg = gray
 
     # Color of the scrollbar handle in completion view.
     # Type: QssColor
-    c.colors.completion.scrollbar.fg = gray
+    c.colors.completion.scrollbar.fg = blue
 
     # Background color for the download bar.
     # Type: QssColor
