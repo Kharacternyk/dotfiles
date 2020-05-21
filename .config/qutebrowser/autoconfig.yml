@@ -13,6 +13,7 @@ settings:
         J: scroll-page 0 1
         K: scroll-page 0 -1
         M: spawn mpv {url}
+        R: config-source
         d: edit-url
         shift-space: scroll-page 0 -0.75
         space: scroll-page 0 0.75

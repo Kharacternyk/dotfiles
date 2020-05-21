@@ -27,15 +27,15 @@ if os.path.isfile(colors_absolute):
 
     # Background color of the completion widget category headers.
     # Type: QssColor
-    c.colors.completion.category.bg = background
+    c.colors.completion.category.bg = gray
 
     # Bottom border color of the completion widget category headers.
     # Type: QssColor
-    c.colors.completion.category.border.bottom = background
+    c.colors.completion.category.border.bottom = gray
 
     # Top border color of the completion widget category headers.
     # Type: QssColor
-    c.colors.completion.category.border.top = background
+    c.colors.completion.category.border.top = gray
 
     # Foreground color of completion widget category headers.
     # Type: QtColor
@@ -55,15 +55,15 @@ if os.path.isfile(colors_absolute):
 
     # Background color of the selected completion item.
     # Type: QssColor
-    c.colors.completion.item.selected.bg = gray
+    c.colors.completion.item.selected.bg = blue
 
     # Bottom border color of the selected completion item.
     # Type: QssColor
-    c.colors.completion.item.selected.border.bottom = background
+    c.colors.completion.item.selected.border.bottom = blue
 
     # Top border color of the completion widget category headers.
     # Type: QssColor
-    c.colors.completion.item.selected.border.top = background
+    c.colors.completion.item.selected.border.top = blue
 
     # Foreground color of the selected completion item.
     # Type: QtColor
@@ -271,7 +271,7 @@ if os.path.isfile(colors_absolute):
     # Foreground color of the URL in the statusbar on successful load
     # (https).
     # Type: QssColor
-    c.colors.statusbar.url.success.https.fg = gray
+    c.colors.statusbar.url.success.https.fg = foreground
 
     # Foreground color of the URL in the statusbar when there's a warning.
     # Type: QssColor
