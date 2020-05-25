@@ -17,6 +17,7 @@ set keymap vi-command
 ";": "ddapacman -"
 ":": "ddasudo pacman -"
 "'": "ddagit --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "
-"/": "\C-r"
+"/": "dd\C-r"
+"?": "\C-r"
 
 set keymap vi-insert
