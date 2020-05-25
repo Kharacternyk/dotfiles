@@ -121,7 +121,7 @@ if os.path.isfile(colors_absolute):
 
     # Background color of the keyhint widget.
     # Type: QssColor
-    c.colors.keyhint.bg = background
+    c.colors.keyhint.bg = gray
 
     # Text color for the keyhint widget.
     # Type: QssColor
@@ -129,7 +129,7 @@ if os.path.isfile(colors_absolute):
 
     # Highlight color for keys to complete the current keychain.
     # Type: QssColor
-    c.colors.keyhint.suffix.fg = yellow
+    c.colors.keyhint.suffix.fg = red
 
     # Background color of an error message.
     # Type: QssColor
