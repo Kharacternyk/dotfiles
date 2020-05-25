@@ -141,7 +141,7 @@ if os.path.isfile(colors_absolute):
 
     # Foreground color of an error message.
     # Type: QssColor
-    c.colors.messages.error.fg = foreground
+    c.colors.messages.error.fg = background
 
     # Background color of an info message.
     # Type: QssColor
@@ -153,7 +153,7 @@ if os.path.isfile(colors_absolute):
 
     # Foreground color an info message.
     # Type: QssColor
-    c.colors.messages.info.fg = foreground
+    c.colors.messages.info.fg = background
 
     # Background color of a warning message.
     # Type: QssColor
@@ -165,7 +165,7 @@ if os.path.isfile(colors_absolute):
 
     # Foreground color a warning message.
     # Type: QssColor
-    c.colors.messages.warning.fg = foreground
+    c.colors.messages.warning.fg = background
 
     # Background color for prompts.
     # Type: QssColor
@@ -189,7 +189,7 @@ if os.path.isfile(colors_absolute):
 
     # Foreground color of the statusbar in caret mode.
     # Type: QssColor
-    c.colors.statusbar.caret.fg = cursor
+    c.colors.statusbar.caret.fg = background
 
     # Background color of the statusbar in caret mode with a selection.
     # Type: QssColor
@@ -197,7 +197,7 @@ if os.path.isfile(colors_absolute):
 
     # Foreground color of the statusbar in caret mode with a selection.
     # Type: QssColor
-    c.colors.statusbar.caret.selection.fg = foreground
+    c.colors.statusbar.caret.selection.fg = background
 
     # Background color of the statusbar in command mode.
     # Type: QssColor
@@ -237,7 +237,7 @@ if os.path.isfile(colors_absolute):
 
     # Foreground color of the statusbar in passthrough mode.
     # Type: QssColor
-    c.colors.statusbar.passthrough.fg = foreground
+    c.colors.statusbar.passthrough.fg = background
 
     # Background color of the statusbar in private browsing mode.
     # Type: QssColor
