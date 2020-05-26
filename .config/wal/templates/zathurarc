@@ -5,9 +5,9 @@ set scroll-full-overlap 0.25
 
 set recolor "true"
 
-set completion-bg "{color8}"
+set completion-bg "{background}"
 set completion-fg "{foreground}"
-set completion-group-bg "{color8}"
+set completion-group-bg "{background}"
 set completion-group-fg "{color1}"
 set completion-highlight-bg "{color4}"
 set completion-highlight-fg "{background}"

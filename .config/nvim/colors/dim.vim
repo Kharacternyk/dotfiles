@@ -27,8 +27,8 @@ highlight SpellCap       ctermfg=NONE ctermbg=NONE cterm=underline
 highlight SpellLocal     ctermfg=NONE ctermbg=NONE cterm=underline
 highlight SpellRare      ctermfg=NONE ctermbg=NONE cterm=underline
 
-highlight Comment      ctermfg=4                 cterm=italic
-highlight Pmenu        ctermfg=NONE ctermbg=8
-highlight PmenuSel     ctermfg=0    ctermbg=4
-highlight PmenuSbar                 ctermbg=8
-highlight PmenuThumb                ctermbg=4
+highlight Comment        ctermfg=4                 cterm=italic
+highlight Pmenu          ctermfg=NONE ctermbg=NONE
+highlight PmenuSel       ctermfg=0    ctermbg=4
+highlight PmenuSbar                   ctermbg=NONE
+highlight PmenuThumb                  ctermbg=4

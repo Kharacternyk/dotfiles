@@ -27,15 +27,15 @@ if os.path.isfile(colors_absolute):
 
     # Background color of the completion widget category headers.
     # Type: QssColor
-    c.colors.completion.category.bg = gray
+    c.colors.completion.category.bg = background
 
     # Bottom border color of the completion widget category headers.
     # Type: QssColor
-    c.colors.completion.category.border.bottom = gray
+    c.colors.completion.category.border.bottom = background
 
     # Top border color of the completion widget category headers.
     # Type: QssColor
-    c.colors.completion.category.border.top = gray
+    c.colors.completion.category.border.top = background
 
     # Foreground color of completion widget category headers.
     # Type: QtColor
@@ -43,11 +43,11 @@ if os.path.isfile(colors_absolute):
 
     # Background color of the completion widget for even rows.
     # Type: QssColor
-    c.colors.completion.even.bg = gray
+    c.colors.completion.even.bg = background
 
     # Background color of the completion widget for odd rows.
     # Type: QssColor
-    c.colors.completion.odd.bg = gray
+    c.colors.completion.odd.bg = background
 
     # Text color of the completion widget.
     # Type: QtColor
@@ -75,7 +75,7 @@ if os.path.isfile(colors_absolute):
 
     # Color of the scrollbar in completion view
     # Type: QssColor
-    c.colors.completion.scrollbar.bg = gray
+    c.colors.completion.scrollbar.bg = background
 
     # Color of the scrollbar handle in completion view.
     # Type: QssColor
@@ -121,7 +121,7 @@ if os.path.isfile(colors_absolute):
 
     # Background color of the keyhint widget.
     # Type: QssColor
-    c.colors.keyhint.bg = gray
+    c.colors.keyhint.bg = background
 
     # Text color for the keyhint widget.
     # Type: QssColor
