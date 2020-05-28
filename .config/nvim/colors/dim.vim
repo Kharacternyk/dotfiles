@@ -32,3 +32,10 @@ highlight Pmenu          ctermfg=NONE ctermbg=NONE
 highlight PmenuSel       ctermfg=0    ctermbg=4
 highlight PmenuSbar                   ctermbg=NONE
 highlight PmenuThumb                  ctermbg=4
+
+" Use first 16 colors only
+highlight LineNr         ctermfg=8
+highlight ColorColumn    ctermfg=7    ctermbg=8
+highlight Folded         ctermfg=7    ctermbg=8
+highlight FoldColumn     ctermfg=7    ctermbg=8
+highlight SignColumn                  ctermbg=8
