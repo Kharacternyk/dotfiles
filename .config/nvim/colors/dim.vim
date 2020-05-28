@@ -22,10 +22,10 @@ highlight Visual         ctermfg=NONE ctermbg=NONE cterm=inverse
 highlight Search         ctermfg=NONE ctermbg=NONE cterm=bold
 
 " Underline spell
-highlight SpellBad       ctermfg=NONE ctermbg=NONE cterm=undercurl
-highlight SpellCap       ctermfg=NONE ctermbg=NONE cterm=underline
-highlight SpellLocal     ctermfg=NONE ctermbg=NONE cterm=underline
-highlight SpellRare      ctermfg=NONE ctermbg=NONE cterm=underline
+highlight SpellBad       ctermfg=NONE ctermbg=NONE cterm=undercurl guisp=fg
+highlight SpellCap       ctermfg=NONE ctermbg=NONE cterm=underline guisp=fg
+highlight SpellLocal     ctermfg=NONE ctermbg=NONE cterm=underline guisp=fg
+highlight SpellRare      ctermfg=NONE ctermbg=NONE cterm=underline guisp=fg
 
 highlight Comment        ctermfg=4                 cterm=italic
 highlight Pmenu          ctermfg=NONE ctermbg=NONE
