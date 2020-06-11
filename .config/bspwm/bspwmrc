@@ -10,7 +10,7 @@ pidof redshift  || redshift -t 6500:3500 &
 pidof sxhkd     || sxhkd &
 
 feh --bg-center --no-fehbg --image-bg "$background" ~/pacwall.png
-pacwall -W &
+pacwall -W -r 0.65 &
 
 
 bspc config pointer_modifier     mod1
