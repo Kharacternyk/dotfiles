@@ -19,7 +19,7 @@ alt + Return
 alt + ctrl + Return
     maim -ui $(xdotool getactivewindow) ~/new/$(date +%s)_win_screenshot.png
 alt + shift + Return
-    peek
+    simplescreenrecorder
 
 alt + shift + Escape
     setxkbmap us
