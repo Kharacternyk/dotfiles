@@ -27,7 +27,6 @@ alias egrep='egrep --color=auto'
 alias diff='diff --color=auto'
 alias ncdu='ncdu --color=dark'
 alias objdump='objdump -M intel-mnemonic --visualize-jumps=color'
-alias pacman=paclabel
 
 # Expand aliases next to sudo.
 alias sudo='sudo '
