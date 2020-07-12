@@ -4,6 +4,9 @@ from datetime import datetime
 # Set font.
 win.set_font(Pango.FontDescription("Monospace 12.5"))
 
+# Do not blink the cursor.
+win.term.set_cursor_blink_mode(Vte.CursorBlinkMode.OFF)
+
 # Bigger scrollback.
 win.term.set_scrollback_lines(20000)
 

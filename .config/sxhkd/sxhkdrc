@@ -13,6 +13,8 @@ alt + o
     telegram-desktop
 alt + p
     viter python -q
+alt + shift + p
+    viter ghci -v0
 
 alt + Return
     maim -u ~/new/$(date +%s)_screenshot.png
