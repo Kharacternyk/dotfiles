@@ -1,3 +1,3 @@
 :set +m
-:set prompt "█◤"
-:set prompt-cont "█ "
+:set prompt "\ESC[01;35m\STX█◤\ESC[00m\STX"
+:set prompt-cont "\ESC[01;35m\STX█ \ESC[00m\STX"
