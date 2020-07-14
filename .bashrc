@@ -44,8 +44,7 @@ export FZF_DEFAULT_OPTS="
     --no-bold
     --color fg:-1,bg:-1,hl:1,fg+:0,bg+:4,hl+:1
     --color info:-1,prompt:4,spinner:1,marker:1
+    --reverse
 "
-export FZF_CTRL_R_OPTS="--reverse"
-
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
