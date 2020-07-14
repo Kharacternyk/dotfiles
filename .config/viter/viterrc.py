@@ -4,6 +4,9 @@ from datetime import datetime
 # Set font.
 win.set_font(Pango.FontDescription("Monospace 12.5"))
 
+# Set cursor shape.
+win.term.set_cursor_shape(Vte.CursorShape.UNDERLINE)
+
 # Do not blink the cursor.
 win.term.set_cursor_blink_mode(Vte.CursorBlinkMode.OFF)
 
