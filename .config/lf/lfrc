@@ -1,2 +1,6 @@
 set hidden
+set incsearch
+set dircounts
+set info size
+set scrolloff 100
 cmd open $rifle $f
