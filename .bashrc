@@ -34,7 +34,7 @@ alias sudo='sudo '
 eval "$(thefuck --alias)"
 
 source ~/.cache/wal/colors.sh
-export BARVA_BG=$background BARVA_TARGET=$foreground
+export BARVA_BG=$background BARVA_TARGET=$color1
 
 export FZF_DEFAULT_OPTS="
     --bind=ctrl-l:accept,change:top
