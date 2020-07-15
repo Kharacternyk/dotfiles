@@ -3,4 +3,8 @@ set incsearch
 set dircounts
 set info size
 set scrolloff 100
+
+map D delete $fx
+map <esc> push uc
+
 cmd open $rifle $f
