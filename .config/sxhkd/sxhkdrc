@@ -1,7 +1,7 @@
 alt + semicolon
     viter
 alt + shift + semicolon
-    viter vim -c "set syntax=markdown"
+    viter lf
 
 alt + y
     viter alsamixer
@@ -14,7 +14,7 @@ alt + shift + u
     telegram-desktop
 
 alt + i
-    viter lf
+    zathura
 alt + o
     viter ghci -v0
 alt + p
