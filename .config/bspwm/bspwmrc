@@ -26,4 +26,3 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc rule -a Zathura state=tiled
-bspc rule -a Peek state=floating
