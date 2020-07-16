@@ -5,16 +5,20 @@ alt + shift + semicolon
 
 alt + y
     viter alsamixer
+alt + shift + y
+    viter btm
+
 alt + u
     qutebrowser
+alt + shift + u
+    telegram-desktop
+
 alt + i
     viter lf
 alt + o
-    telegram-desktop
+    viter ghci -v0
 alt + p
     viter python -q
-alt + shift + p
-    viter ghci -v0
 
 alt + Return
     maim -u ~/new/$(date +%s)_screenshot.png
