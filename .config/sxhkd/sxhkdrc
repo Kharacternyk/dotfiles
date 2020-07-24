@@ -78,14 +78,17 @@ alt + ctrl + {comma, period}
 alt + m
    bspc desktop -l next
 
-alt + period
-    bspc node -g sticky
-
 alt + {_,shift + }{h,j,k,l}
     bspc node -{f,s} {west,south,north,east}
 
 alt + ctrl + shift + {h,j,k,l}
 	bspc node -p {west,south,north,east}
+
+alt + {_, shift + }slash
+	bspc node -f @{parent,/}
+
+alt + {_, shift + }period
+	bspc node -f @{first,brother}
 
 alt + {_,shift + }space
     bspc desktop -f {next,prev}.local
@@ -96,8 +99,11 @@ alt + comma
 alt + shift + comma
     bspc desktop -r
 
-alt + slash
-    bspc node @/ -R 90
+alt + shift + m
+    bspc node -R 90
+
+alt + ctrl + m
+    bspc node -g sticky
 
 alt + {_,shift} + n
     bspc node -d {next,prev}
