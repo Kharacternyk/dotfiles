@@ -1,97 +1,106 @@
+# Lauchers
+
 alt + semicolon
     viter
+
 alt + shift + semicolon
     viter lf
 
 alt + y
     viter alsamixer
+
 alt + shift + y
     viter btm
 
 alt + u
     qutebrowser
+
 alt + shift + u
     telegram-desktop
 
 alt + i
     zathura
+
 alt + o
     viter ghci -v0
+
 alt + p
     viter python -q
 
+# Screenshots and screencasts
+
 alt + Return
     maim -u ~/new/$(date +%s)_screenshot.png
+
 alt + ctrl + Return
     maim -ui $(xdotool getactivewindow) ~/new/$(date +%s)_win_screenshot.png
+
 alt + shift + Return
     simplescreenrecorder
 
+# Keymap
+
 alt + shift + Escape
     setxkbmap us
+
 alt + Escape
     setxkbmap ua
+
+# Reset
 
 alt + BackSpace
     bspc wm -r; \
     pkill -USR1 -x sxhkd
+
 ctrl + alt + BackSpace
     bspc quit
+
 shift + alt + BackSpace
     reboot
+
 shift + ctrl + alt + BackSpace
     poweroff
 
-# close and undo
+# BSPWM
+
 alt + apostrophe
     ubspc close
+
 alt + shift + apostrophe
     ubspc undo close
 
-# noundo close and kill
 alt + ctrl + {_, shift} + apostrophe
     bspc node -{c,k}
 
-# float and tile
 alt + ctrl + {comma, period}
     bspc node -t {floating, tiled}
 
-# alternate between the tiled and monocle layout
 alt + m
    bspc desktop -l next
 
-# pin the window (keep on all desktops)
 alt + period
     bspc node -g sticky
 
-# focus the node in the given direction
 alt + {_,shift + }{h,j,k,l}
     bspc node -{f,s} {west,south,north,east}
 
-# preselect the direction
 alt + ctrl + shift + {h,j,k,l}
 	bspc node -p {west,south,north,east}
 
-# focus the next/previous desktop in the current monitor
 alt + {_,shift + }space
     bspc desktop -f {next,prev}.local
 
-# add a desktop
 alt + comma
     bspc monitor -a ''
 
-# remove a desktop
 alt + shift + comma
     bspc desktop -r
 
-# rotate the desktop
 alt + slash
     bspc node @/ -R 90
 
-# to next desktop
 alt + {_,shift} + n
     bspc node -d {next,prev}
 
-# expand a window by moving one of its side outward
 alt + ctrl + {h,j,k,l}
     bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
