@@ -93,6 +93,9 @@ alt + {_, shift + }period
 alt + {_,shift + }space
     bspc desktop -f {next,prev}.local
 
+alt + ctrl + {_,shift + }space
+    bspc desktop -b {next,prev}
+
 alt + comma
     bspc monitor -a ''
 
