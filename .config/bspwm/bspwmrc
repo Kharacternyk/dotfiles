@@ -9,7 +9,7 @@ pidof unclutter || unclutter -b
 pidof redshift  || redshift -t 6500:3500 &
 pidof sxhkd     || sxhkd &
 
-feh --bg-center --no-fehbg --image-bg "$background" ~/pacwall.png
+hsetroot -solid "$background" -center ~/pacwall.png
 pacwall -W -r 0.65 &
 
 
