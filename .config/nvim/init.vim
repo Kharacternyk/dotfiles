@@ -10,6 +10,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set spell
+set spelllang=en,uk
 set ignorecase
 set smartcase
 set autoindent
