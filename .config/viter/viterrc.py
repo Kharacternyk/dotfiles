@@ -24,7 +24,7 @@ win.term.set_audible_bell(False)
 
 win.bar_segments.append(lambda: datetime.now().time().strftime("{%H:%M}"))
 
-win.detached_mode_key_map[Gdk.KEY_space] = lambda: win.enter_normal_mode()
+win.detached_mode_key_map[Gdk.KEY_space] = win.enter_normal_mode
 
 if 'VITER_USE_PYWAL' in os.environ:
     # Set pywal color scheme.
