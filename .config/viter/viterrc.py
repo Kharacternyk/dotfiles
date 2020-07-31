@@ -2,6 +2,17 @@ from gi.repository import Pango
 from datetime import datetime
 
 win.set_font(Pango.FontDescription("Monospace 12.5"))
+win.is_italics = False
+
+def toggle_italics():
+    if win.is_italics:
+        win.set_font(Pango.FontDescription("Monospace 12.5"))
+        win.is_italics = False
+    else:
+        win.set_font(Pango.FontDescription("Monospace Italic 12.5"))
+        win.is_italics = True
+
+win.detached_mode_key_map[Gdk.KEY_i] = toggle_italics
 
 win.term.set_cursor_shape(Vte.CursorShape.UNDERLINE)
 
