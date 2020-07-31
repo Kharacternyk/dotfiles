@@ -1,40 +1,18 @@
 from gi.repository import Pango
 from datetime import datetime
 
-# Set font.
 win.set_font(Pango.FontDescription("Monospace 12.5"))
 
-# Set cursor shape.
 win.term.set_cursor_shape(Vte.CursorShape.UNDERLINE)
 
-# Do not blink the cursor.
 win.term.set_cursor_blink_mode(Vte.CursorBlinkMode.OFF)
 
-# Bigger scrollback.
 win.term.set_scrollback_lines(20000)
 
-# Visual bell.
 win.term.set_audible_bell(False)
-win.last_bell = None
 
-def bell_handler(_):
-    win.last_bell = datetime.now()
-win.term.connect("bell", bell_handler)
-
-def display_bell():
-    if win.last_bell is not None:
-        delta = datetime.now() - win.last_bell
-        delta_seconds = int(delta.total_seconds())
-        if delta_seconds <= 10:
-            return '*' * (10 - delta_seconds)
-    return ""
-
-win.bar_segments.insert(1, display_bell)
-
-# Add the current time to the bar.
 win.bar_segments.append(lambda: datetime.now().time().strftime("{%H:%M}"))
 
-# Map space to exit DETACHED mode.
 win.detached_mode_key_map[Gdk.KEY_space] = lambda: win.enter_normal_mode()
 
 if 'VITER_USE_PYWAL' in os.environ:
