@@ -46,6 +46,9 @@ alt + shift + Escape
 alt + Escape
     setxkbmap ua
 
+alt + ctrl + Escape
+    setxkbmap ua phonetic
+
 # Reset
 
 alt + BackSpace
