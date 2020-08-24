@@ -4,6 +4,9 @@ set selection-clipboard clipboard
 set scroll-full-overlap 0.25
 set statusbar-home-tilde
 
+unmap q
+unmap [index] q
+
 set recolor "true"
 
 set completion-bg "{background}"
