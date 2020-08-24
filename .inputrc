@@ -17,8 +17,8 @@ set colored-stats on
 set keymap vi-command
 "L": end-of-line
 "H": beginning-of-line
-";": "ddapacman -"
-":": "ddasudo pacman -"
+"o": "ddapacman -"
+"O": "ddasudo pacman -"
 "'": "ddagit --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "
 "/": "dd\C-r"
 "?": "\C-r"
