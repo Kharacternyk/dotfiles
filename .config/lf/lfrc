@@ -7,7 +7,6 @@ set promptfmt "\033[32;1m█◤%w\033[37;1m%f\033[0m"
 
 map q
 map D delete $fx
-map <esc> push uc
 
 cmd q quit
 cmd open $rifle $f
