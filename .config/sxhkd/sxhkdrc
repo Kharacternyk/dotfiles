@@ -10,13 +10,16 @@ alt + y
     viter alsamixer
 
 alt + shift + y
-    viter btm
+    viter btm --hide_avg_cpu
 
 alt + u
     qutebrowser
 
 alt + shift + u
     telegram-desktop
+
+alt + ctrl + u
+    spotify
 
 alt + i
     zathura
