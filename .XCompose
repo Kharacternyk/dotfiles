@@ -1,3 +1,7 @@
 include "%L"
 
 <Multi_key> <y> <y> : "λ"
+<Multi_key> <Ukrainian_yi> : ","
+<Multi_key> <Ukrainian_ie> : "."
+<Multi_key> <Ukrainian_YI> : "<"
+<Multi_key> <Ukrainian_IE> : ">"
