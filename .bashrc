@@ -16,7 +16,7 @@ PROMPT_COMMAND='
     esac
     history -a
     history -n
-    echo -n "]112"' # Set cursor color to inverse
+    printf "\e]112\a"' # Set cursor color to inverse
 
 PS1='\[$(tput setaf $PROMPT_COLOR)\]█◤\[$(tput sgr0)\]'
 PS2='\[$(tput setaf $PROMPT_COLOR)\]█ \[$(tput sgr0)\]'
