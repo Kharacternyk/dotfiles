@@ -14,6 +14,8 @@ def toggle_italics():
 
 win.detached_mode_key_map[Gdk.KEY_i] = toggle_italics
 
+win.term.set_cursor_blink_mode(Vte.CursorBlinkMode.OFF);
+
 win.term.set_scrollback_lines(20000)
 
 win.term.set_audible_bell(False)
@@ -25,6 +27,7 @@ win.detached_mode_key_map[Gdk.KEY_space] = win.enter_normal_mode
 if 'VITER_USE_PYWAL' in os.environ:
     with open("/home/nazar/.cache/wal/sequences", 'rb') as f:
         win.term.feed(f.read())
+    win.term.feed("]112".encode())
 else:
     def c(string):
         color = Gdk.RGBA()
