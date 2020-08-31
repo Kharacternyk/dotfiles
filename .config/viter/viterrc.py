@@ -14,10 +14,6 @@ def toggle_italics():
 
 win.detached_mode_key_map[Gdk.KEY_i] = toggle_italics
 
-win.term.set_cursor_shape(Vte.CursorShape.UNDERLINE)
-
-win.term.set_cursor_blink_mode(Vte.CursorBlinkMode.OFF)
-
 win.term.set_scrollback_lines(20000)
 
 win.term.set_audible_bell(False)
