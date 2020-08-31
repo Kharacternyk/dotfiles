@@ -3,3 +3,5 @@
 	name = Nazar Vinnichuk
 [pull]
 	ff = only
+[push]
+	default = current
