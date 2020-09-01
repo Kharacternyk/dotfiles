@@ -24,35 +24,6 @@ win.bar_segments.append(lambda: datetime.now().time().strftime("{%H:%M}"))
 
 win.detached_mode_key_map[Gdk.KEY_space] = win.enter_normal_mode
 
-if 'VITER_USE_PYWAL' in os.environ:
-    with open("/home/nazar/.cache/wal/sequences", 'rb') as f:
-        win.term.feed(f.read())
-    win.term.feed("]112".encode())
-else:
-    def c(string):
-        color = Gdk.RGBA()
-        color.parse("#" + string)
-        return color
-
-    win.term.set_colors(
-        c("000000"),
-        c("FFFFFF"),
-        [
-            c("000000"),
-            c("8b0000"),
-            c("006400"),
-            c("808000"),
-            c("00008b"),
-            c("8b008b"),
-            c("008b8b"),
-            c("FFFFFF"),
-            c("000000"),
-            c("8b0000"),
-            c("006400"),
-            c("808000"),
-            c("00008b"),
-            c("8b008b"),
-            c("008b8b"),
-            c("FFFFFF"),
-        ],
-    )
+with open("/home/nazar/.cache/wal/sequences", 'rb') as f:
+    win.term.feed(f.read())
+win.term.feed("]112".encode())
