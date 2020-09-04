@@ -9,9 +9,7 @@ pidof unclutter || unclutter -b
 pidof redshift  || redshift -t 6500:3500 &
 pidof sxhkd     || sxhkd &
 
-hsetroot -solid "$background" -center ~/pacwall.png
-pacwall -W -r 0.65 &
-
+pacwall &
 
 bspc config pointer_modifier     mod1
 
