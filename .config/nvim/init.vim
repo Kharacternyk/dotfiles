@@ -19,8 +19,10 @@ set laststatus=0
 
 nnoremap S qq
 nnoremap s @q
-nnoremap <Space> <C-D>
-nnoremap <silent><C-l> :nohlsearch<CR>
+nnoremap <Space> <C-d>
+
+noremap  <silent><C-l> :nohlsearch<CR>
+noremap! <silent><C-l> <C-o>:nohlsearch<CR>
 
 noremap H ^
 noremap L $
