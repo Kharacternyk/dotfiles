@@ -17,12 +17,14 @@ set autoindent
 set clipboard+=unnamedplus
 set laststatus=0
 
-nnoremap S qq
-nnoremap s @q
-nnoremap <Space> <C-d>
-
+noremap H ^
+noremap L $
+noremap " J
+noremap M K
+noremap J <C-d>
+noremap K <C-u>
 noremap  <silent><C-l> :nohlsearch<CR>
 noremap! <silent><C-l> <C-o>:nohlsearch<CR>
 
-noremap H ^
-noremap L $
+nnoremap S qq
+nnoremap s @q
