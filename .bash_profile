@@ -6,3 +6,4 @@ export LC_ALL=en_US.utf8
 export FZWAL_RESET_CURSOR=1
 
 eval "$(dircolors)"
+lesskey
