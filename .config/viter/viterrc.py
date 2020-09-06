@@ -22,7 +22,8 @@ win.term.set_audible_bell(False)
 
 win.bar_segments.append(lambda: datetime.now().time().strftime("{%H:%M}"))
 
-win.detached_mode_key_map[Gdk.KEY_space] = win.enter_normal_mode
+win.detached_mode_key_map[Gdk.KEY_space] = \
+    win.detached_mode_key_map[Gdk.KEY_J]
 
 with open("/home/nazar/.cache/wal/sequences", 'rb') as f:
     win.term.feed(f.read())
