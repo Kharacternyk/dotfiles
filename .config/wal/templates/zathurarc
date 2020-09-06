@@ -1,11 +1,14 @@
 set font "monospace 12.5"
 set guioptions none
 set selection-clipboard clipboard
-set scroll-full-overlap 0.25
+set scroll-full-overlap 0.5
 set statusbar-home-tilde
 
 unmap q
 unmap [index] q
+
+map J scroll full-down
+map K scroll full-up
 
 set recolor "true"
 
