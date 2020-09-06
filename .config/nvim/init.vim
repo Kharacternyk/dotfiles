@@ -28,3 +28,5 @@ noremap! <silent><C-l> <C-o>:nohlsearch<CR>
 
 nnoremap S qq
 nnoremap s @q
+
+command -nargs=1 -complete=help H tab help <args>
