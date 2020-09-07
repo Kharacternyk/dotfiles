@@ -1,5 +1,7 @@
 #! /bin/sh
 
+pacwall-hook
+
 source ~/.cache/wal/colors.sh
 
 setxkbmap -option caps:escape
@@ -8,8 +10,6 @@ setxkbmap -option compose:lwin
 pidof unclutter || unclutter -b
 pidof redshift  || redshift -t 6500:3500 &
 pidof sxhkd     || sxhkd &
-
-pacwall &
 
 bspc config pointer_modifier     mod1
 
