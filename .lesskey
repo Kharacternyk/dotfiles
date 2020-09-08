@@ -2,6 +2,3 @@
 K back-scroll
 J forw-scroll
 \  forw-scroll
-
-#env
-LESS = FRXi
