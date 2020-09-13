@@ -1,6 +1,6 @@
 #! /bin/sh
 
-pacwall-hook
+pacwall -ug
 
 source ~/.cache/wal/colors.sh
 
