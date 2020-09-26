@@ -13,7 +13,7 @@ alt + shift + y
     viter btm --hide_avg_cpu
 
 alt + u
-    qutebrowser
+    /usr/share/qutebrowser/scripts/open_url_in_instance.sh archlinux.org
 
 alt + shift + u
     telegram-desktop
