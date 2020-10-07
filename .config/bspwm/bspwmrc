@@ -6,6 +6,7 @@ source ~/.cache/wal/colors.sh
 
 setxkbmap -option caps:escape
 setxkbmap -option compose:lwin
+setxkbmap -option altwin:meta_alt
 
 pidof unclutter || unclutter -b
 pidof redshift  || redshift -t 6500:3500 &
