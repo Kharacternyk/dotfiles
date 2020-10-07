@@ -43,13 +43,16 @@ alt + shift + Return
 
 # Keymap
 
+alt + Escape
+    (setxkbmap -query | rg '^layout: *us$' > /dev/null) && setxkbmap ua || setxkbmap us
+
+alt + ctrl + Escape
+    setxkbmap ua
+
 alt + shift + Escape
     setxkbmap us
 
-alt + Escape
-    setxkbmap ua
-
-alt + ctrl + Escape
+alt + ctrl + shift + Escape
     setxkbmap ua phonetic
 
 # Reset
