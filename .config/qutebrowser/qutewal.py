@@ -39,7 +39,7 @@ if os.path.isfile(colors_absolute):
 
     # Foreground color of completion widget category headers.
     # Type: QtColor
-    c.colors.completion.category.fg = foreground
+    c.colors.completion.category.fg = cyan
 
     # Background color of the completion widget for even rows.
     # Type: QssColor
