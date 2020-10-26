@@ -9,9 +9,11 @@ setxkbmap -option caps:escape
 setxkbmap -option compose:lwin
 setxkbmap -option altwin:meta_alt
 
+mkdir -p ~/.cache/sxhkd/
+
+pidof sxhkd     || sxhkd -r ~/.cache/sxhkd/log &
 pidof unclutter || unclutter -b
 pidof redshift  || redshift -t 6500:3500 &
-pidof sxhkd     || sxhkd &
 
 bspc config pointer_modifier     mod1
 
