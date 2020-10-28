@@ -22,6 +22,8 @@ highlight Visual         ctermfg=NONE ctermbg=NONE cterm=inverse
 highlight Search         ctermfg=NONE ctermbg=NONE cterm=bold
 highlight MatchParen     ctermfg=NONE ctermbg=NONE cterm=bold
 
+" Highlight LaTeX's verbatim environment cyan
+highlight texZone        ctermfg=6    ctermbg=NONE
 
 " Underline spell
 highlight SpellBad       ctermfg=NONE ctermbg=NONE cterm=undercurl guisp=fg
