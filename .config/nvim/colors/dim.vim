@@ -20,6 +20,8 @@ highlight Visual         ctermfg=NONE ctermbg=NONE cterm=inverse
 
 " Highlight search matches in bold
 highlight Search         ctermfg=NONE ctermbg=NONE cterm=bold
+highlight MatchParen     ctermfg=NONE ctermbg=NONE cterm=bold
+
 
 " Underline spell
 highlight SpellBad       ctermfg=NONE ctermbg=NONE cterm=undercurl guisp=fg

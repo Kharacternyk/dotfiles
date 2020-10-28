@@ -32,3 +32,6 @@ nnoremap s @q
 command -nargs=1 -complete=help H tab help <args>
 
 let g:no_man_maps = 0
+let g:tex_flavor = "luatex"
+
+packadd vimtex
