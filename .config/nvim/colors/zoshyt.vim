@@ -19,7 +19,6 @@ highlight Visual         ctermfg=NONE ctermbg=NONE cterm=inverse
 " Bold stuff
 highlight Search         ctermfg=NONE ctermbg=NONE cterm=bold
 highlight MatchParen     ctermfg=NONE ctermbg=NONE cterm=bold
-highlight Todo           ctermfg=0    ctermbg=11
 
 " Underlined stuff
 highlight SpellBad       ctermfg=NONE ctermbg=NONE cterm=undercurl guisp=fg
@@ -29,6 +28,7 @@ highlight SpellRare      ctermfg=NONE ctermbg=NONE cterm=underline guisp=fg
 
 " Italic stuff
 highlight Comment        ctermfg=4                 cterm=italic
+highlight Todo           ctermfg=4    ctermbg=NONE cterm=italic
 
 " Custom colors
 highlight LineNr         ctermfg=8
