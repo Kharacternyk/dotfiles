@@ -25,7 +25,9 @@ highlight SpellBad       ctermfg=NONE ctermbg=NONE cterm=undercurl guisp=fg
 highlight SpellCap       ctermfg=NONE ctermbg=NONE cterm=underline guisp=fg
 highlight SpellLocal     ctermfg=NONE ctermbg=NONE cterm=underline guisp=fg
 highlight SpellRare      ctermfg=NONE ctermbg=NONE cterm=underline guisp=fg
-highlight Error          ctermfg=8    ctermbg=NONE cterm=undercurl guisp=fg
+
+" Crossed out stuff
+highlight Error          ctermfg=8    ctermbg=NONE cterm=strikethrough
 
 " Italic stuff
 highlight Comment        ctermfg=4                 cterm=italic
