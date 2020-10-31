@@ -7,7 +7,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "zoshyt"
+let colors_name = "zapysnyk"
 
 " ================
 " General settings

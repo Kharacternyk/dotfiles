@@ -1,4 +1,4 @@
-colorscheme zoshyt
+colorscheme zapysnyk
 
 au BufEnter *.asm setlocal syntax=fasm
 au BufEnter *.asm syn keyword fasmRegister rax rbx rcx rdx rsi rdi
