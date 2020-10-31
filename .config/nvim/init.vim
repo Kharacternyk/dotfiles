@@ -33,5 +33,9 @@ command -nargs=1 -complete=help H tab help <args>
 
 let g:no_man_maps = 0
 let g:tex_flavor = "latex"
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsListSnippets="<c-q>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<c-q>"
 
 packadd vimtex
