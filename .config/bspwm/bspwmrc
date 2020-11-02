@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/bash
 
 pacwall -ug
 pacwall -u &
@@ -8,6 +8,11 @@ source ~/.cache/wal/colors.sh
 setxkbmap -option caps:escape
 setxkbmap -option compose:lwin
 setxkbmap -option altwin:meta_alt
+
+if [[ "$(cat /etc/hostname)" == arch-desktop ]]; then
+    xrandr --output DVI-0 --primary
+    bspc monitor primary -f
+fi
 
 mkdir -p ~/.cache/sxhkd/
 

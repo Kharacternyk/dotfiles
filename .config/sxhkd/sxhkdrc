@@ -88,7 +88,7 @@ alt + m
    bspc desktop -l next
 
 alt + {_,shift + }{h,j,k,l}
-    bspc node -{f,s} {west,south,north,east}
+    bspc node -{f,s} {west,south,north,east}.local
 
 alt + ctrl + shift + {h,j,k,l}
 	bspc node -p {west,south,north,east}
@@ -121,7 +121,10 @@ alt + ctrl + m
     bspc node -g sticky
 
 alt + {_,shift} + n
-    bspc node -d {next,prev}
+    bspc node -d {next,prev}.local
+
+alt + ctrl + n
+    bspc node -m next
 
 alt + ctrl + {h,j,k,l}
     bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
