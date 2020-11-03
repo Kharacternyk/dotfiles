@@ -9,7 +9,7 @@ setxkbmap -option caps:escape
 setxkbmap -option compose:lwin
 setxkbmap -option altwin:meta_alt
 
-if [[ "$(cat /etc/hostname)" == arch-desktop ]]; then
+if [[ $HOSTNAME == arch-desktop ]]; then
     xrandr --output DVI-0 --primary
     bspc monitor primary -f
 fi
