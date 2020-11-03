@@ -8,7 +8,6 @@ set spell
 set spelllang=en,uk
 set ignorecase
 set smartcase
-set autoindent
 set clipboard+=unnamedplus
 set laststatus=0
 
