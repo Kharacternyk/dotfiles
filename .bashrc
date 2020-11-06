@@ -20,6 +20,8 @@ PROMPT_COMMAND='
 PS1='\[$(tput setaf $PROMPT_COLOR)\]█◤\[$(tput sgr0)\]'
 PS2='\[$(tput setaf $PROMPT_COLOR)\]█ \[$(tput sgr0)\]'
 
+# Expand aliases next to sudo.
+alias sudo='sudo '
 alias ls='ls --color=auto -FA'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -28,8 +30,13 @@ alias diff='diff --color=auto'
 alias ncdu='ncdu --color=dark'
 alias objdump='objdump -M intel-mnemonic --visualize-jumps=color'
 
-# Expand aliases next to sudo.
-alias sudo='sudo '
+bind -m vi '"o": "ddapacman -"'
+bind -m vi '"O": "ddasudo pacman -"'
+bind -m vi '"'\''": "ddagit --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "'
+bind -m vi '"/": "dd\C-r"'
+bind -m vi '"?": "\C-r"'
+bind -m vi '"Y": "/Iecho -n '\''$a'\'' | xsel -bi"'
+bind -m vi '"\C-Y": "/A | xsel -bi"'
 
 eval "$(thefuck --alias)"
 
