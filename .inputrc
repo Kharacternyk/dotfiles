@@ -22,5 +22,7 @@ set keymap vi-command
 "'": "ddagit --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "
 "/": "dd\C-r"
 "?": "\C-r"
+"Y": "/Iecho -n '$a' | xsel -bi"
+"\C-Y": "/A | xsel -bi"
 
 set keymap vi-insert
