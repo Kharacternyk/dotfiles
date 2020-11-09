@@ -10,6 +10,10 @@ set ignorecase
 set smartcase
 set clipboard+=unnamedplus
 set laststatus=0
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКІЕГМЦЧНЯ;
+           \ABCDEFGHIJKLMNOPQRSTUVWXYZ,
+           \фисвуапршолдьтщзйкіегмцчня;
+           \abcdefghijklmnopqrstuvwxyz
 
 noremap H ^
 noremap L $
