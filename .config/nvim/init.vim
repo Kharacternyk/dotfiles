@@ -22,8 +22,10 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsListSnippets="<c-q>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<c-q>"
+let g:EasyMotion_smartcase = 1
 
 map <Leader> <Plug>(easymotion-prefix)
+map <Leader><Leader> <Plug>(easymotion-repeat)
 
 noremap H ^
 noremap L $
