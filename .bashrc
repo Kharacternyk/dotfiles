@@ -46,12 +46,14 @@ export BARVA_BG=$background BARVA_TARGET=$color1
 export FZF_DEFAULT_OPTS="
     --bind=ctrl-l:accept,change:top
     --prompt='█◤'
+    --marker='◤'
     --pointer=' '
     --info=hidden
     --no-bold
+    --tabstop=4
     --color fg:-1,bg:-1,hl:1,fg+:0,bg+:4,hl+:1
-    --color info:-1,prompt:4,spinner:1,marker:1
-    --reverse
-"
+    --color info:-1,prompt:4,spinner:1,marker:reverse:0
+    --reverse"
+
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
