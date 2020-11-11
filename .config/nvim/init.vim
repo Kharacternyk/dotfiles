@@ -6,14 +6,12 @@ set shiftwidth=4
 set expandtab
 set spell
 set spelllang=en,uk
+set keymap=ukrainian-jcuken
+set iminsert=0
 set ignorecase
 set smartcase
 set clipboard+=unnamedplus
 set laststatus=0
-set langmap=ФИСВУАПРШОЛДЬТЩЗЙКІЕГМЦЧНЯ;
-           \ABCDEFGHIJKLMNOPQRSTUVWXYZ,
-           \фисвуапршолдьтщзйкіегмцчня;
-           \abcdefghijklmnopqrstuvwxyz
 
 let mapleader=" "
 let g:no_man_maps=0
@@ -33,8 +31,10 @@ noremap " J
 noremap M K
 noremap J <C-d>
 noremap K <C-u>
-noremap  <silent><C-l> :nohlsearch<CR>
+noremap <silent><C-l> :nohlsearch<CR>
+
 noremap! <silent><C-l> <C-o>:nohlsearch<CR>
+noremap! <C-Space> <C-^>
 
 nnoremap S qq
 nnoremap s @q
