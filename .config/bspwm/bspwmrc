@@ -1,27 +1,10 @@
 #!/bin/bash
 
-pacwall -ug
-pacwall -u &
-
-source ~/.cache/wal/colors.sh
-
-setxkbmap -option caps:escape
-setxkbmap -option compose:lwin
-setxkbmap -option altwin:meta_alt
-
-if [[ $HOSTNAME == arch-desktop ]]; then
-    xrandr --output DVI-0 --primary
-    bspc monitor primary -f
-fi
-
-mkdir -p ~/.cache/sxhkd/
-
-pidof sxhkd     || sxhkd -r ~/.cache/sxhkd/log &
-pidof unclutter || unclutter -b
-pidof redshift  || redshift -t 6500:3500 &
+bspc monitor primary -f
 
 bspc config pointer_modifier     mod1
 
+source ~/.cache/wal/colors.sh
 bspc config normal_border_color  "$foreground"
 bspc config focused_border_color "$color6"
 bspc config active_border_color "$color8"
