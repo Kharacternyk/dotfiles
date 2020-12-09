@@ -1,5 +1,11 @@
 #!/bin/bash
 
+pacwall -u &
+
+setxkbmap -option caps:escape
+setxkbmap -option compose:lwin
+setxkbmap -option altwin:meta_alt
+
 bspc monitor primary -f
 
 bspc config pointer_modifier     mod1
