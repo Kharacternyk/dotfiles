@@ -1,0 +1,4 @@
+[Service]
+ExecStart=/bin/make -C %h/.config/pkglist
+Type=oneshot
+Restart=no

@@ -1,0 +1,6 @@
+[Path]
+Unit=pkglist.service
+PathChanged=/var/lib/pacwall/systemd/trigger
+
+[Install]
+WantedBy=default.target
