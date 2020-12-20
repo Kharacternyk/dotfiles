@@ -7,6 +7,3 @@ packages: ignore /var/lib/pacman/local
 
 packages-aur: ignore /var/lib/pacman/local
 	pacman -Qqm | grep -vxf ignore > $@
-
-ignore: /var/lib/pacman/local
-	pacman -Qeqg xorg-drivers > $@
