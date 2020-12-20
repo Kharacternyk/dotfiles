@@ -32,8 +32,10 @@ noremap M K
 noremap J <C-d>
 noremap K <C-u>
 noremap <silent><C-l> :nohlsearch<CR>
+noremap <silent><C-s> :set spell!<CR>
 
 noremap! <silent><C-l> <C-o>:nohlsearch<CR>
+noremap! <silent><C-s> <C-o>:set spell!<CR>
 noremap! <C-Space> <C-^>
 
 nnoremap S qq
