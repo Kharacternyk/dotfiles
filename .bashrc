@@ -50,7 +50,6 @@ export FZF_DEFAULT_OPTS="
     --pointer=' '
     --info=hidden
     --no-bold
-    --tabstop=4
     --color fg:-1,bg:-1,hl:1,fg+:0,bg+:4,hl+:1
     --color info:-1,prompt:4,spinner:1,marker:reverse:0
     --reverse"
