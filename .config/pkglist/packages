@@ -10,6 +10,7 @@ bash-completion
 bison
 bspwm
 checksec
+clang
 cmatrix
 ctags
 docx2txt
