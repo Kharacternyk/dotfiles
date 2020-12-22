@@ -15,7 +15,6 @@ cmatrix
 ctags
 docx2txt
 fasm
-flake8
 flex
 fzf
 gcc
@@ -55,7 +54,6 @@ pkgconf
 pkgstats
 pulseaudio
 python-beautifulsoup4
-python-black
 python-cached-property
 python-django
 python-docutils
