@@ -67,6 +67,7 @@ python-pytest
 python-pywal
 python-sympy
 python-tqdm
+python-typeguard
 python-virtualenv
 qutebrowser
 racket-minimal
