@@ -10,10 +10,10 @@ shopt -s autocd
 shopt -s histappend
 
 PROMPT_COMMAND='
-    case $? in
-        0)   PROMPT_COLOR="6" ;;
-        *)   PROMPT_COLOR="1" ;;
-    esac
+    ECODE=$?
+    PROMPT_COLOR=6
+    [[ -n $VIRTUAL_ENV ]] && PROMPT_COLOR=2
+    [[ $ECODE != 0 ]] && PROMPT_COLOR=1
     history -a
     history -n'
 
