@@ -41,7 +41,6 @@ ncdu
 neofetch
 neovim
 networkmanager
-nltk-data
 noto-fonts
 noto-fonts-emoji
 os-prober
@@ -59,7 +58,6 @@ python-django
 python-docutils
 python-hypothesis
 python-matplotlib
-python-nltk
 python-pre-commit
 python-pygithub
 python-pynvim
