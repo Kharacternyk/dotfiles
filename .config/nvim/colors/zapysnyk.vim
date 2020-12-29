@@ -47,10 +47,11 @@ highlight CursorLineNr   ctermfg=3
 highlight Conceal        ctermfg=7    ctermbg=8
 highlight CursorColumn   ctermfg=7    ctermbg=8
 highlight Statement      ctermfg=3
-highlight DiffAdd        ctermfg=0    ctermbg=2
-highlight DiffChange     ctermfg=0    ctermbg=3
-highlight DiffDelete     ctermfg=0    ctermbg=1
-highlight DiffText       ctermfg=0    ctermbg=11   cterm=bold
+highlight DiffAdd        ctermfg=2    ctermbg=0
+highlight DiffChange     ctermfg=3    ctermbg=0
+highlight DiffDelete     ctermfg=1    ctermbg=0
+highlight DiffText       ctermfg=7    ctermbg=0    cterm=NONE
+highlight ErrorMsg       ctermfg=0    ctermbg=1
 
 " =================
 " Language settings
