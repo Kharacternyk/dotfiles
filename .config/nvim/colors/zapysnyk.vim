@@ -59,3 +59,13 @@ highlight ErrorMsg       ctermfg=0    ctermbg=1
 
 " LaTeX
 highlight texZone        ctermfg=6    ctermbg=NONE
+
+" ===============
+" Plugin settings
+" ===============
+
+" EasyMotion
+highlight EasyMotionTarget        ctermfg=1 cterm=bold
+highlight EasyMotionTarget2First  ctermfg=1 cterm=bold
+highlight EasyMotionTarget2Second ctermfg=8 cterm=bold
+highlight EasyMotionShade         ctermfg=8 cterm=NONE
