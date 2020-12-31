@@ -2,9 +2,14 @@
 
 pacwall -u &
 
-setxkbmap -option caps:escape
-setxkbmap -option compose:lwin
+setxkbmap -layout us,ua
 setxkbmap -option altwin:meta_alt
+setxkbmap -option caps:swapescape
+setxkbmap -option grp:ctrls_toggle
+if [[ $HOSTNAME == arch-desktop ]]; then
+    setxkbmap -option compose:lctrl
+    setxkbmap -option ctrl:swap_lwin_lctl
+fi
 
 bspc monitor primary -f
 

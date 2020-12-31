@@ -44,20 +44,6 @@ alt + ctrl + Return
 alt + shift + Return
     simplescreenrecorder
 
-# Keymap
-
-alt + Tab
-    (setxkbmap -query | rg '^layout: *us$' > /dev/null) && setxkbmap ua || setxkbmap us
-
-alt + ctrl + Tab
-    setxkbmap ua
-
-alt + shift + Tab
-    setxkbmap us
-
-alt + ctrl + shift + Tab
-    setxkbmap ua phonetic
-
 # Reset
 
 alt + BackSpace
