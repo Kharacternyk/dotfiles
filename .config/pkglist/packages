@@ -23,7 +23,7 @@ ghc
 git
 github-cli
 gnuplot
-gpick
+go
 hsetroot
 imagemagick
 imv
@@ -72,6 +72,7 @@ racket-minimal
 ranger
 redshift
 ripgrep
+rust
 shfmt
 simplescreenrecorder
 socat
