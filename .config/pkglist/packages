@@ -30,7 +30,6 @@ imv
 linux-firmware
 lostfiles
 m4
-maim
 make
 man-db
 man-pages
@@ -58,6 +57,7 @@ python-django
 python-docutils
 python-hypothesis
 python-matplotlib
+python-mss
 python-pre-commit
 python-pygithub
 python-pynvim

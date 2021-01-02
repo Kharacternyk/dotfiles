@@ -36,10 +36,7 @@ alt + p
 # Screenshots and screencasts
 
 alt + Return
-    maim -u ~/new/$(date +%s)_screenshot.png
-
-alt + ctrl + Return
-    maim -ui $(xdotool getactivewindow) ~/new/$(date +%s)_win_screenshot.png
+    cd .cache && mss
 
 alt + shift + Return
     simplescreenrecorder
