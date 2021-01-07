@@ -5,7 +5,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set spell
-set spelllang=en,uk
+set spelllang=en,uk,de
 set keymap=ukrainian-jcuken
 set iminsert=0
 set ignorecase
