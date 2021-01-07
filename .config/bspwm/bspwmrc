@@ -3,7 +3,6 @@
 pacwall -u &
 
 setxkbmap -layout us,ua
-setxkbmap -option altwin:meta_alt
 setxkbmap -option caps:swapescape
 setxkbmap -option grp:ctrls_toggle
 if [[ $HOSTNAME == arch-desktop ]]; then
