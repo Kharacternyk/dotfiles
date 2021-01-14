@@ -29,6 +29,7 @@ hsetroot
 imagemagick
 imv
 linux-firmware
+llvm
 lostfiles
 m4
 make
