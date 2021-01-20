@@ -30,13 +30,14 @@ alias diff='diff --color=auto'
 alias ncdu='ncdu --color=dark'
 alias objdump='objdump -M intel-mnemonic --visualize-jumps=color'
 
-bind -m vi '"o": "ddapacman -"'
-bind -m vi '"O": "ddasudo pacman -"'
-bind -m vi '"'\''": "ddagit --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "'
-bind -m vi '"/": "dd\C-r"'
-bind -m vi '"?": "\C-r"'
-bind -m vi '"Y": "/Iecho -n '\''$a'\'' | xsel -bi"'
-bind -m vi '"\C-Y": "/A | xsel -bi"'
+bind -m vi 'o: "ddapacman -"'
+bind -m vi 'O: "ddasudo pacman -"'
+bind -m vi \'': "ddagit --git-dir=$HOME/.dotfiles/ --work-tree=$HOME "'
+bind -m vi '/: "dd\C-r"'
+bind -m vi '?: "\C-r"'
+bind -m vi 'Y: "/Iecho -n '\''$a'\'' | xsel -bi"'
+bind -m vi '\C-Y: "/A | xsel -bi"'
+bind -m vi 'TAB: "ifuck\C-j"'
 
 eval "$(thefuck --alias)"
 
