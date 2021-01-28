@@ -7,7 +7,7 @@ alt + shift + semicolon
     viter lf
 
 alt + y
-    viter alsamixer
+    viter pulsemixer
 
 alt + shift + y
     viter btm --hide_avg_cpu
