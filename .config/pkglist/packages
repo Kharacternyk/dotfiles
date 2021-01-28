@@ -55,6 +55,7 @@ picom
 pkgconf
 pkgstats
 pulseaudio
+pulsemixer
 python-beautifulsoup4
 python-cached-property
 python-django
