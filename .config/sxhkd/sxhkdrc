@@ -1,19 +1,19 @@
 # Lauchers
 
 alt + semicolon
-    viter
+    termite
 
 alt + shift + semicolon
-    viter lf
+    termite -e lf
 
 alt + y
-    viter pulsemixer
+    termite -e pulsemixer
 
 alt + shift + y
-    viter btm --hide_avg_cpu
+    termite -e "btm --hide_avg_cpu"
 
 alt + u
-    /usr/share/qutebrowser/scripts/open_url_in_instance.sh archlinux.org
+    qutebrowser
 
 alt + shift + u
     telegram-desktop
@@ -58,13 +58,7 @@ shift + ctrl + alt + BackSpace
 
 # BSPWM
 
-alt + apostrophe
-    ubspc close
-
-alt + shift + apostrophe
-    ubspc undo close
-
-alt + ctrl + {_, shift} + apostrophe
+alt + {_, ctrl} + apostrophe
     bspc node -{c,k}
 
 alt + ctrl + {comma, period}

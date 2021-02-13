@@ -1,11 +1,10 @@
-#!/bin/bash
-
-pacwall -u &
+#!/bin/sh
 
 setxkbmap -layout us,ua
 setxkbmap -option caps:swapescape
 setxkbmap -option grp:ctrls_toggle
-if [[ $HOSTNAME == arch-desktop ]]; then
+if [[ $HOSTNAME == nixos-desktop ]]; then
+    xrandr --output DVI-0 --primary
     setxkbmap -option compose:lctrl
     setxkbmap -option ctrl:swap_lwin_lctl
 fi
